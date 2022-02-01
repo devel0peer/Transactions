@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19206" systemVersion="20F71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Transaction" representedClassName=".Transaction" syncable="YES" codeGenerationType="category">
+        <attribute name="amount" optional="YES" attributeType="String"/>
+        <attribute name="counterPartyAccount" optional="YES" attributeType="String"/>
+        <attribute name="counterPartyName" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="description_" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Transaction" positionX="-63" positionY="-18" width="128" height="134"/>
+    </elements>
+</model>
